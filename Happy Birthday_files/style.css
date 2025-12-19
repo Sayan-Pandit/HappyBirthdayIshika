@@ -196,6 +196,12 @@ body {
         0 0 60px rgba(255, 209, 102, 0.7);
 }
 
+@keyframes loaderBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
 /* =========================
    AUDIO
 ========================= */
@@ -321,8 +327,3 @@ img {
     }
 }
 
-@keyframes loaderBG {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
