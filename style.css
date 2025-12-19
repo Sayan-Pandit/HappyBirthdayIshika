@@ -152,12 +152,14 @@ body {
 /* =========================
    LOADER / START SCREEN
 ========================= */
+/* =========================
+   BOOTLOADER THEME (FORCE OVERRIDE)
+========================= */
 .loader {
     position: fixed;
     inset: 0;
     z-index: 1000;
 
-    /* animated gradient background */
     background: linear-gradient(135deg, #1a002b, #3a0ca3, #7209b7);
     background-size: 300% 300%;
     animation: loaderBG 6s ease infinite;
@@ -180,20 +182,18 @@ body {
     border-radius: 50px;
     cursor: pointer;
 
-    color: #fff;
-    background: linear-gradient(45deg, #ff4d6d, #ffd166);
+    color: #fff !important;
+    background: linear-gradient(45deg, #ff4d6d, #ffd166) !important;
+
     box-shadow:
-        0 0 20px rgba(255, 77, 109, 0.6),
-        0 0 40px rgba(255, 209, 102, 0.4);
+        0 0 25px rgba(255, 77, 109, 0.8),
+        0 0 50px rgba(255, 209, 102, 0.6);
 
     transition: all 0.3s ease;
 }
 
 .loader button:hover {
     transform: scale(1.08);
-    box-shadow:
-        0 0 30px rgba(255, 77, 109, 0.9),
-        0 0 60px rgba(255, 209, 102, 0.7);
 }
 
 @keyframes loaderBG {
