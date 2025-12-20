@@ -1,3 +1,8 @@
+.snowflake {
+    position: fixed !important;
+    z-index: 900 !important;
+    pointer-events: none;
+}
 /* =========================
    GLOBAL RESET
 ========================= */
@@ -16,11 +21,7 @@ body {
 /* =========================
    SNOWFLAKES
 ========================= */
-.snowflake {
-    position: fixed !important;
-    z-index: 900 !important;
-    pointer-events: none;
-}
+
 
 /* =========================
    LOADER / START SCREEN
