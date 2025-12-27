@@ -173,6 +173,7 @@ img {
     position: relative;
     border-radius: 20px;
     padding: 15px;
+    justify-content: center;
     animation: cakeGlow 2.5s infinite alternate;
 }
 
